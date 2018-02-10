@@ -9,18 +9,6 @@
             <button v-on:click="reverseMessage">Reverse Message!</button>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-        <script>
-            var app = new Vue({
-                el: '#app',
-                data: {
-                    message: 'Hello Vue.js!',
-                },
-                methods: {
-                    reverseMessage: function() {
-                        this.message = this.message.split('').reverse().join('')
-                    },
-                },
-            })
-        </script>
+        <script type="text/javascript" src="./index.js"></script>
     </body>
 </html>
